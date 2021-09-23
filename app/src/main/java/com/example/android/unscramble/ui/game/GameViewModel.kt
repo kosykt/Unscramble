@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 /**
  * ViewModel containing the app data and methods to process the data
  */
-class GameViewModel : ViewModel(){
+class GameViewModel : ViewModel() {
     private var _score = MutableLiveData<Int>(0)
     val score: MutableLiveData<Int>
         get() = _score
